@@ -3,7 +3,7 @@ import { useState } from "react";
 function PincodeFinder(){
 
     const [query, setQuery] = useState("");
-    const [type, setType] = useState("pincode");
+    const [type, setType] = useState("postoffice");
     const [data, setData] = useState(null);
     const [error, setError] = useState("");
 
@@ -49,7 +49,7 @@ function PincodeFinder(){
             <input
             type="text"
             placeholder={
-                type === "pincode" ? "Enter PIN Code" : "Enter Post Office Name"
+                type === "postoffice" ? "Enter Post Office / City Name" : "Enter PIN Code"
             }
             value={query}
             onChange={(e) => setQuery(e.target.value)}
