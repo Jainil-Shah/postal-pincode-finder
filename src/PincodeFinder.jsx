@@ -49,7 +49,7 @@ function PincodeFinder(){
             <input
             type="text"
             placeholder={
-                type === "postoffice" ? "Enter Post Office / City Name" : "Enter PIN Code"
+                type === "postoffice" ? "Enter Post Office / City" : "Enter PIN Code"
             }
             value={query}
             onChange={(e) => setQuery(e.target.value)}
