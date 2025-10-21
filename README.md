@@ -1,16 +1,41 @@
-# React + Vite
+# 📮 Pincode Finder App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and responsive React-based web application that helps users find **Indian postal details** by either **PIN Code** or **Post Office Name**, powered by the [India Postal API](https://api.postalpincode.in).
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+- 🔍 Search by **PIN Code** or **Post Office Name**  
+- 🗺️ Displays **District, State, Branch Type, and Pincode**  
+- ⚡ Fast and lightweight interface built with **React + Vite**  
+- 🚫 Error handling for invalid or empty inputs  
+- 📱 Responsive design for both desktop and mobile users  
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React.js (Vite)**
+- **JavaScript (ES6)**
+- **HTML5 & CSS3**
+- **Fetch API**
+
+---
+
+## 📦 Installation and Setup
+
+Follow these steps to run the project locally 👇
+
+```bash
+# 1️⃣ Clone the repository
+git clone https://github.com/your-username/pincode-finder-app.git
+
+# 2️⃣ Navigate into the project directory
+cd pincode-finder-app
+
+# 3️⃣ Install dependencies
+npm install
+
+# 4️⃣ Start the development server
+npm run dev
