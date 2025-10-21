@@ -42,8 +42,8 @@ function PincodeFinder(){
 
         <div className="form">
             <select value={type} onChange={(e) => setType(e.target.value)}>
+            <option value="postoffice">Search by Branch Name / City</option>
             <option value="pincode">Search by PIN Code</option>
-            <option value="postoffice">Search by Branch Name</option>
             </select>
 
             <input
