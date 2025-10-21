@@ -59,7 +59,13 @@ function PincodeFinder(){
             <button onClick={handleSearch}>Search</button>
         </div>
 
-        {error && <p className="error">{error}</p>}
+        {/* {error && <p className="error">No results found.  Try adjusting your search Please! 😅</p>} */}
+        {error && 
+            <div>
+                <p className="error">No results found.  Try adjusting your search Please!</p><br /><br /><br /><br />
+                <p className="error-emoji">😅</p>
+            </div>
+        }
 
         {data && (
             <div className="results">
@@ -68,7 +74,10 @@ function PincodeFinder(){
                 <h3>{office.Name}</h3>
                 <p>District: {office.District}</p>
                 <p>State: {office.State}</p>
-                <p>Pincode: {office.Pincode}</p>
+                {/* <p className="pincode-pera">Pincode: {office.Pincode}</p> */}
+                <p>
+                    Pincode: <span style={{ color: "hsl(0, 100%, 40%)", fontWeight: "bold" }}>{office.Pincode}</span>
+                </p>
                 <p>Branch Type: {office.BranchType}</p>
                 </div>
             ))}
